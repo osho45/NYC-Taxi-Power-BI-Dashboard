@@ -1,0 +1,24 @@
+# Python and local tooling
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.env
+.env.*
+!.env.example
+*.log
+*.tmp
+~$*
+
+# Downloadable source files and large generated trip-level outputs.
+# These files stay in the local project for the existing scripts.
+data_raw/
+outputs/*.csv
+!outputs/yellow_agg_daily.csv
+!outputs/yellow_agg_daily_borough.csv
+
+# Local Power BI working files
+*.pbit.bak
+*.pbix.bak

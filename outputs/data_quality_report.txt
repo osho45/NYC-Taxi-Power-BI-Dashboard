@@ -1,0 +1,36 @@
+DATA QUALITY REPORT
+===================
+Total Raw Rows: 9,674,557
+--------------------
+Rows Dropped (Missing Dates): 0
+Rows Dropped (Invalid/Filters): 319,690
+Total Rows Dropped: 319,690
+Final Clean Rows (Approx): 9,354,867
+--------------------
+Missing Values (Raw Data):
+  pickup_datetime: 0 (0.00%)
+  dropoff_datetime: 0 (0.00%)
+  trip_distance: 0 (0.00%)
+  total_amount: 0 (0.00%)
+  fare_amount: 0 (0.00%)
+  tip_amount: 0 (0.00%)
+  payment_type: 0 (0.00%)
+  pulocationid: 0 (0.00%)
+  dolocationid: 0 (0.00%)
+--------------------
+Statistical Summary (Based on 1M Cleaned Sample):
+
+  Column: trip_distance
+    Min: 0.01
+    Median: 1.80
+    Max: 100.00
+
+  Column: trip_duration_min
+    Min: 0.02
+    Median: 12.83
+    Max: 300.00
+
+  Column: total_amount
+    Min: 0.00
+    Median: 21.00
+    Max: 764.53
